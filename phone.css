@@ -1,0 +1,96 @@
+/* navigaction section */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li{
+    font-size: 0.9rem;
+}
+#navbar ul li a{
+    padding: 0rem 0.7rem;
+  
+}
+
+#logo img{
+    width: 2.4rem;
+    height: 2rem;
+}
+
+/* home section */
+.heading1{
+    font-size: 1.8rem;
+}
+#home p{
+    font-size: 1.1rem;
+}
+.btn{
+    font-size: 1rem;
+    margin: 4px;
+}
+#home{
+    height: 20rem;
+    padding: 0rem  2.7rem;
+
+}
+#home::before{
+    height: 27rem;
+
+}
+/* services */
+#services{
+    flex-direction: column;
+    
+
+}
+#services .box{
+    flex-wrap: wrap;
+    flex-shrink: 1.6;
+}
+.boxh{
+    font-size: 1.4rem;
+}
+#services .box img{
+    width: 13rem;
+    height: auto;
+
+}
+
+/* clint sections */
+
+.clint-item{
+
+    padding: 0px 14px;
+}
+.myh{
+    display: none;
+}
+#clint-sec{
+    display:grid;
+}
+.clint-item{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.clint-item img{
+    height: 5rem;
+}
+#clint-sec::before{
+    content: "";
+    background: none;
+}
+
+/* contact Us */
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    outline: none;
+    border-radius: 9px;
+    font-size: 1rem;
+}
+#contact-box form{
+    width: 82%;
+}
+
+/* footer */
